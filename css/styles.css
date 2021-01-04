@@ -37,15 +37,15 @@ a:link {
   }
   
   a:visited {
-    color:#878C64;
+    color:#3e412b;
   }
   
   a:hover {
-    color: #727651;
+    color: #72726d;
   }
   
   a:active {
-    color: #54573A;
+    color: #747755;
   } 
 
 h2 {
@@ -107,10 +107,6 @@ footer {
     display: none;
 }
 
-footer p a:visited {
-    color: black;
-}
-
 @media screen and (min-width: 768px) {
 
     #main_nav {
@@ -140,8 +136,9 @@ footer p a:visited {
 
     .projects {
         float: left;
-        max-width: 44%;
-        margin: auto
+        width: 44%;
+        margin: auto;
+        height: 400px;
     }
 
     .projects:nth-child(odd) {
@@ -180,16 +177,18 @@ footer p a:visited {
         margin: auto;
         list-style-type: none;
         max-width: 250px;
-        padding-top: 17px;
+        padding: 11px 64px 0 0;
         font-weight: bold;
     }
 
     .footer_nav_li {
-        padding-right: 15px;
-    }
-
-    #footer_nav a:visited {
+        border-radius: 6px;
+        display: inline-block;
+        background: whitesmoke;
         color: black;
+        padding: 5px 10px;
+        margin: 2px;
+        padding-right: 15px;
     }
 }
 
@@ -234,4 +233,8 @@ footer p a:visited {
     .projects:nth-child(even) {
         padding-left: 3%;
     } 
+
+    #footer_nav {
+        padding-right: 37px;
+    }
 }
